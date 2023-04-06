@@ -1,0 +1,93 @@
+.home__about-card {
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 16px 50px 2px #e6e9ee;
+}
+
+.home__about-card .home__about-card__wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+  background-image: url(../Assets/Images/image-profile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem;
+  border-radius: 16px;
+  z-index: 8;
+}
+
+.home__about-card .home__about-card__overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--gradient-bg-home-about-card);
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.home__about-card .home__about-card__text {
+  padding: 1rem 0 0;
+}
+
+.home__about-card .home__about-card__text>h1 {
+  font: normal 800 20px/1 var(--raleway-font);
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  margin: 0 0 24px;
+}
+
+.home__about-card .home__about-card__text>p {
+  font: normal 500 16px/1.5 var(--raleway-font);
+  letter-spacing: 0.015em;
+  color: var(--white-color);
+  text-shadow: -2px 10px 6px var(--black-color);
+}
+
+.home__about-card .home__about-card__text>p span {
+  font-weight: 700;
+}
+
+.home__about-card__button {
+  margin: 80px 0 0;
+}
+
+.home__about-card__button button {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+  font: normal 700 16px/1 var(--raleway-font);
+  color: var(--white-color);
+  text-shadow: 1px 2px 10px var(--black-color);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.home__about-card__button button>span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 1024px) {}
+
+@media only screen and (min-width: 1200px) {
+  .home__about-card__button {
+    margin: 28px 0 0;
+  }
+
+  .home__about-card .home__about-card__overlay {
+    width: 75%;
+  }
+}

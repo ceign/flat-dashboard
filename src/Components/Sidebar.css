@@ -1,0 +1,376 @@
+aside.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  margin-left: 0;
+  background-color: var(--gray-bg);
+  border-right: 1px solid var(--border-sidebar);
+  transition: .3s left ease-in-out;
+  z-index: 9;
+}
+
+.sidebar .sidebar__wrapper {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding: 32px;
+}
+
+/* Width Scrollbar */
+.sidebar .sidebar__wrapper::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track Scrollbar*/
+.sidebar .sidebar__wrapper::-webkit-scrollbar-track {
+  background: var(--scrollar-bg);
+}
+
+/* Handle Scrollbar*/
+.sidebar .sidebar__wrapper::-webkit-scrollbar-thumb {
+  background: var(--scrollar);
+}
+
+/* Handle on hover Scrollbar*/
+.sidebar .sidebar__wrapper::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollar-bg-hover);
+}
+
+.sidebar .sidebar__header {
+  width: 100%;
+  height: auto;
+  padding: 0 0 52px;
+}
+
+.sidebar .sidebar__header .sidebar__logo>a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+
+.sidebar .sidebar__header .sidebar__logo>a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -26px;
+  width: 100%;
+  height: 4px;
+  background-image: url(../Assets/Images/decoration-sidebar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sidebar .sidebar__header .sidebar__logo>a p {
+  font: normal 700 16px/1 var(--raleway-font);
+  letter-spacing: 0.1008px;
+  color: var(--text-color);
+  margin: 0 0 0 16px;
+}
+
+.sidebar .sidebar__body {
+  width: 100%;
+  height: auto;
+  padding: 0 0 64px;
+}
+
+.sidebar .sidebar__body .sidebar__list {
+  list-style: none;
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: inherit;
+  letter-spacing: 0.035em;
+  color: var(--text-color);
+  font: normal 500 15px/1 var(--raleway-font);
+  text-decoration: none;
+  padding: 16px;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  transition: .25s box-shadow ease-in-out;
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a:hover {
+  background-color: var(--white-color);
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a.active {
+  font: normal 600 14px/1 var(--raleway-font);
+  background-color: var(--white-color);
+  box-shadow: 0rem 20px 30px -12px rgba(32, 30, 63, 0.1);
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a.active span {
+  background-color: var(--primary-color);
+  transition: .3s all ease;
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a.active span svg path {
+  fill: var(--white-color);
+}
+
+.sidebar .sidebar__body .sidebar__list .sidebar__item a>span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  margin: 0 1rem 0 0;
+  box-shadow: 0rem 3px 6px 1px rgba(22, 56, 177, 0.2);
+}
+
+.sidebar .sidebar__body .sidebar__contact {
+  padding: 68px 0 0 0;
+}
+
+.sidebar .sidebar__body .sidebar__contact h3 {
+  font: normal 600 12px/1 var(--raleway-font);
+  letter-spacing: 0.035em;
+  color: var(--text-color);
+  text-transform: uppercase;
+  margin: 0 0 24px;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__information {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__information .sidebar__data {
+  padding: 0 0 0 16px;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__data-name {
+  font: normal 600 12px/1 var(--raleway-font);
+  letter-spacing: 0.035em;
+  color: var(--text-color);
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__data-role {
+  font: normal 500 12px/1 var(--raleway-font);
+  letter-spacing: 0.035em;
+  color: var(--text-color);
+  margin: 0 0 0.25rem;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__data-location {
+  font: normal 600 12px/1 var(--raleway-font);
+  letter-spacing: 0.035em;
+  color: var(--text-color);
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  list-style: none;
+  padding: 16px 0 0;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li {
+  margin: 0 8px 0 0;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li:first-child a {
+  background: rgb(207, 207, 207);
+  background: var(--gradient-bg-email);
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li:nth-child(2) a {
+  background: rgb(135, 226, 255);
+  background: var(--gradient-bg-in);
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li:nth-child(3) a {
+  background: rgb(244, 140, 255);
+  background: var(--gradient-bg-db);
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li:nth-child(4) a {
+  background: rgb(96, 96, 96);
+  background: var(--gradient-bg-gh);
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__icons li a svg {
+  display: block;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__avatar {
+  width: 64px;
+  height: 64px;
+}
+
+.sidebar .sidebar__body .sidebar__contact .sidebar__avatar>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.sidebar__footer .sidebar__card {
+  width: 100%;
+  height: auto;
+  background: var(--gradient-card-sidebar);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-header span {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-header span svg {
+  width: 100%;
+  height: 100%;
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-title {
+  font: normal 800 16px/1 var(--raleway-font);
+  letter-spacing: 0.015em;
+  color: var(--white-color);
+  margin: 16px 0 8px 0;
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-text {
+  font: normal 600 13px/1.3 var(--raleway-font);
+  letter-spacing: -0.015em;
+  color: var(--white-color);
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-footer button {
+  display: block;
+  width: 100%;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  margin: 16px 0 0 0;
+  cursor: pointer;
+  background: var(--bg-button-card-sidebar);
+  box-shadow: 0px 2px 4px rgba(24, 14, 142, 0.25);
+}
+
+.sidebar__footer .sidebar__card .sidebar__card-footer button span {
+  font: normal 700 12px/1 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--text-color);
+  text-transform: uppercase;
+}
+
+.sidebar__footer .sidebar__button {
+  width: 100%;
+  padding: 24px 0 0 0;
+}
+
+.sidebar__footer .sidebar__button>button {
+  width: 100%;
+  height: 42px;
+  background: var(--gradient-button-sidebar);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.sidebar__footer .sidebar__button>button span {
+  font: normal 800 12px/1 var(--raleway-font);
+  letter-spacing: 0.015em;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+
+@media only screen and (min-width: 481px) {
+  aside.sidebar {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  aside.sidebar {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  aside.sidebar {
+    max-width: 320px;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  aside.sidebar {
+    left: 0px !important;
+    max-width: 280px;
+    border-right: initial;
+    margin-left: 40px;
+    z-index: 12;
+  }
+
+  .sidebar .sidebar__wrapper {
+    padding: 2rem 2rem 2rem 0;
+  }
+
+  .sidebar .sidebar__header .sidebar__logo>a p {
+    font: normal 700 14px/1 var(--raleway-font);
+  }
+
+  .sidebar .sidebar__body .sidebar__list .sidebar__item a {
+    font: normal 500 14px/1 var(--raleway-font);
+  }
+
+  .sidebar .sidebar__body .sidebar__contact {
+    padding: 140px 0 0 0;
+  }
+
+  .sidebar__footer .sidebar__card {
+    max-width: initial;
+  }
+
+  .sidebar__footer .sidebar__card .sidebar__card-text {
+    font: normal 600 12px/1.3 var(--raleway-font);
+  }
+
+  .sidebar__footer .sidebar__button {
+    max-width: initial;
+    padding: 16px 0 0 0;
+  }
+
+  button.button-menu {
+    display: none;
+  }
+}

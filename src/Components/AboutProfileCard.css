@@ -1,0 +1,22 @@
+.about__profile-card {
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 16px 50px 2px #e6e9ee;
+}
+
+.about__profile-card .about__profile-card__wrapper {
+  padding: 28px 20px;
+}
+
+.about__profile-card .about__profile-card__wrapper h3 {
+  font: normal 700 16px/1 var(--raleway-font);
+  letter-spacing: 0.045em;
+  color: var(--text-color);
+  margin: 0 0 14px;
+}
+
+.about__profile-card .about__profile-card__wrapper p {
+  font: normal 400 14px/1.4 var(--raleway-font);
+  color: var(--text-color-gray);
+  margin-bottom: 12px;
+}

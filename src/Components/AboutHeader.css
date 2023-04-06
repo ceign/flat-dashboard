@@ -1,0 +1,128 @@
+.about__header {
+  width: 100%;
+  height: 330px;
+  margin: 0 0 140px;
+}
+
+.about__header .about__header__background {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(36, 72, 204, 0.605) 0%, #2cbaf7 100%);
+  border-radius: 16px;
+}
+
+.about__header .about__header__profile {
+  position: relative;
+  bottom: 64px;
+  width: 95%;
+  height: auto;
+  padding: 20px;
+  background: var(--about-header-background);
+  margin: auto;
+  box-shadow: 0px 44px 50px 2px #e6e9ee;
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+}
+
+.about__header .about__header__profile .about__header__avatar {
+  position: relative;
+  bottom: 44px;
+  display: flex;
+  justify-content: center;
+}
+
+.about__header .about__header__profile .about__header__avatar figure {
+  width: 86px;
+  height: 86px;
+}
+
+.about__header .about__header__profile .about__header__avatar figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 20px 10px -10px rgba(66, 66, 66, 0.18);
+}
+
+.about__header .about__header__profile .about__header__info {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+}
+
+
+.about__header .about__header__profile .about__header__info h1 {
+  font: normal 600 18px/1 var(--raleway-font);
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+
+.about__header .about__header__profile .about__header__info h3 {
+  font: normal 600 14px/1.3 var(--raleway-font);
+  letter-spacing: 0.035em;
+  color: var(--text-color-gray);
+  margin: 6px 0 0;
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 1024px) {
+  .about__header {
+    height: 260px;
+    margin: 0 0 112px;
+  }
+
+  .about__header .about__header__profile .about__header__avatar {
+    justify-content: flex-start;
+  }
+
+  .about__header .about__header__profile .about__header__info {
+    text-align: left;
+  }
+
+  .about__header .about__header__profile {
+    max-width: 620px;
+    padding: 20px 20px 0px 40px;
+  }
+
+  .about__header .about__header__profile .about__header__avatar figure {
+    width: 72px;
+    height: 72px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .about__header {
+    margin: 0 0 100px;
+  }
+
+  .about__header .about__header__profile .about__header__info {
+    bottom: 28px;
+  }
+
+  .about__header .about__header__profile .about__header__info h1 {
+    font: normal 600 20px/1 var(--raleway-font);
+  }
+
+  .about__header .about__header__profile {
+    max-width: 700px;
+    height: 130px;
+    margin: 0 32px 0;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .about__header {
+    height: 360px;
+  }
+
+  .about__header .about__header__profile {
+    max-width: 740px;
+    height: 144px;
+  }
+
+  .about__header .about__header__profile .about__header__avatar figure {
+    width: 82px;
+    height: 82px;
+  }
+}

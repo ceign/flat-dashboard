@@ -1,0 +1,29 @@
+.about__skills-card {
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 16px 50px 2px #e6e9ee;
+}
+
+.about__skills-card .about__skills-card__wrapper {
+  padding: 28px 20px;
+}
+
+.about__skills-card .about__skills-card__wrapper h3 {
+  font: normal 700 16px/1 var(--raleway-font);
+  letter-spacing: 0.045em;
+  color: var(--text-color);
+  margin: 0 0 14px;
+}
+
+.about__skills-card .about__skills-card__wrapper p {
+  font: normal 400 14px/1.4 var(--raleway-font);
+  color: var(--text-color-gray);
+  margin-bottom: 12px;
+}
+
+.about__skills-card .about__skills-card__wrapper .about__skills-card__tools {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(54px, 1fr));
+  grid-template-rows: repeat(2, minmax(54px, 1fr));
+  grid-gap: 8px;
+}

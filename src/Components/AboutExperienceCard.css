@@ -1,0 +1,65 @@
+.about__experience-card {
+  width: 100%;
+  height: auto;
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 16px 50px 2px #e6e9ee;
+}
+
+.about__experience-card .about__experience-card__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 28px 20px;
+}
+
+.about__experience-card .about__experience-card__wrapper h3 {
+  font: normal 700 16px/1 var(--raleway-font);
+  letter-spacing: 0.045em;
+  color: var(--text-color);
+  margin: 0 0 32px
+}
+
+.about__experience-card .about__experience-card__wrapper ul {
+  list-style: none;
+}
+
+.about__experience-card .about__experience-card__wrapper ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 16px;
+}
+
+.about__experience-card .about__experience-card__wrapper ul li h4.about__experience-card__company {
+  font: normal 700 15px/1.4 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--text-color-gray);
+  margin: 0 0 8px;
+}
+
+.about__experience-card .about__experience-card__wrapper ul li p.about__experience-card__role {
+  font: normal 400 14px/1.4 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--text-color-gray);
+}
+
+.about__experience-card .about__experience-card__wrapper ul li p.about__experience-card__date {
+  font: normal 700 14px/1.4 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--primary-color);
+}
+
+.about__experience-card .about__experience-card__wrapper .about__experience-card__linkedin {
+  font: normal 500 14px/1.4 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--text-color);
+  margin: 40px 0 0;
+}
+
+.about__experience-card .about__experience-card__wrapper .about__experience-card__linkedin a {
+  font-weight: 700;
+  color: var(--primary-color);
+  text-decoration: none;
+}

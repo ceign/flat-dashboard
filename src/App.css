@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #17c1e8;
+  --gray-bg: #f8f9fA;
+  --text-color: #344767;
+  --text-color-gray: #67748e;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --raleway-font: 'Raleway', sans-serif;
+
+  --gradient-bg-email: linear-gradient(90deg, rgba(207, 207, 207, 1) 0%, rgba(135, 135, 135, 1) 100%);
+  --gradient-bg-in: linear-gradient(90deg, rgba(135, 226, 255, 1) 0%, rgba(0, 99, 195, 1) 100%);
+  --gradient-bg-db: linear-gradient(90deg, rgba(244, 140, 255, 1) 0%, rgb(224, 0, 205) 90%);
+  --gradient-bg-gh: linear-gradient(90deg, rgba(96, 96, 96, 1) 0%, rgba(10, 9, 10, 1) 100%);
+
+  --gradient-card-sidebar: linear-gradient(125.69deg, rgba(33, 212, 253, 0.6) 4.35%, rgba(0, 56, 255, 0.6) 95.21%);
+  --gradient-button-sidebar: linear-gradient(90deg, rgba(51, 194, 255, 0.75) 0%, #3484fc 54.15%);
+
+  --gradient-icons-pills: linear-gradient(136.45deg, #2CA8FE 0%, #2572FF 93.65%);
+
+  --gradient-bg-home-jumbotron: linear-gradient(126.71deg, #2FBEFD 30.17%, #2159FF 117.73%);
+  --gradient-bg-home-about-card: linear-gradient(286deg, #1D283A 0.89%, rgb(52 71 103 / 33%) 62.45%, rgb(2 18 46 / 0%) 100%);
+
+
+  --bg-gradient-bg-home-carousel-card: linear-gradient(300deg, #273956 43.22%, #324970 73.55%, #364C72 108.62%);
+
+  --home-project-card-decoration: radial-gradient(47.17% 2495500.04% at 50% 49.98%, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+
+
+  --about-header-background: linear-gradient(270deg, rgba(255, 255, 255, 0.5625) 1.37%, rgba(255, 255, 255, 0.5625) 87.48%);
+
+
+  --border-sidebar: #cccccc4a;
+  --bg-button-card-sidebar: #f8f9fa;
+
+  --scrollar: #3e527631;
+  --scrollar-bg: #d0cee074;
+  --scrollar-bg-hover: #2b457580;
+
+  --bg-button-menu: #253d54;
+
+  --breadcrumb-text: #67748e;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  background-color: var(--gray-bg);
+}
+
+main {
+  padding: 100px 0 0 0;
+}
+
+main>section {
+  padding: 1.5rem;
+  margin-left: 0;
+}
+
+@media (min-width: 1200px) {
+  header {
+    padding-left: calc(274px + 100px) !important;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  main {
+    padding: 124px 0 0;
+    padding-left: calc(274px + 100px);
   }
-  to {
-    transform: rotate(360deg);
+
+  main>section {
+    padding: 0;
+  }
+
+  .dashboard__wrapper {
+    padding-right: 40px;
   }
 }

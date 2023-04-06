@@ -1,0 +1,27 @@
+footer.footer {
+  width: 100%;
+  height: auto;
+  padding: 2.5rem 1.5rem 1.5rem;
+}
+
+.footer p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font: normal 500 13px/1 var(--raleway-font);
+  letter-spacing: 0.35px;
+  color: var(--text-color-gray);
+}
+
+.footer p span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6px;
+}
+
+@media (min-width: 1200px) {
+  footer.footer {
+    padding-left: calc(274px + 100px);
+  }
+}

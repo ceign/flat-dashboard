@@ -1,0 +1,161 @@
+.home__projects-card-smalls {
+  display: flex;
+  flex-direction: column;
+  gap: 32px 0;
+}
+
+.home__projects-card-small {
+  padding: 20px;
+  background-color: var(--white-color);
+  border-radius: 16px;
+  box-shadow: 0px 16px 50px 2px #e6e9ee;
+}
+
+.home__projects-card-small .home__projects-card-small__wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.home__projects-card-small .home__projects-card-small__header {
+  display: flex;
+  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 40px;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__title {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 14px;
+  width: 100%;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__image figure {
+  width: 48px;
+  height: 48px;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__image figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6px 0;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__info>h4 {
+  font: normal 700 16px/1 var(--raleway-font);
+  letter-spacing: 0.045em;
+  color: var(--text-color);
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__stack span {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__stack span:nth-child(2) {
+  left: -8px;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__stack span:nth-child(3) {
+  left: -16px;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__date {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__date>p {
+  font: normal 500 15px/1.4 var(--raleway-font);
+  letter-spacing: 0.015em;
+  color: var(--text-color-gray);
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__date>p:first-child {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.home__projects-card-small .home__projects-card-small__header .home__projects-card-small__date>p:last-child {
+  font-weight: 700;
+}
+
+.home__projects-card-small .home__projects-card-small__body {
+  padding: 0 0 32px;
+}
+
+.home__projects-card-small .home__projects-card-small__body>p {
+  font: normal 500 15px/1.5 var(--raleway-font);
+  letter-spacing: 0.015em;
+  color: var(--text-color-gray);
+}
+
+.home__projects-card-small .home__projects-card-small__footer {
+  position: relative;
+}
+
+.home__projects-card-small .home__projects-card-small__footer::before {
+  content: "";
+  position: absolute;
+  top: calc(-16px - 1px);
+  width: 100%;
+  height: 1px;
+  background: var(--home-project-card-decoration);
+}
+
+.home__projects-card-small .home__projects-card-small__footer button {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+  font: normal 700 16px/1 var(--raleway-font);
+  color: var(--text-color-gray);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 28px 0 0;
+}
+
+.home__projects-card-small .home__projects-card-small__footer button>span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .home__projects-card-smalls {
+    grid-column: 4 / -1;
+    padding-left: 32px;
+    padding: 0 0 0 32px;
+  }
+
+  .home__projects-card-small .home__projects-card-small__header {
+    flex-flow: row nowrap;
+    padding: 0 0 32px;
+  }
+
+  .home__projects-card-small .home__projects-card-small__header .home__projects-card-small__title,
+  .home__projects-card-small .home__projects-card-small__header .home__projects-card-small__date {
+    width: 50%;
+  }
+}
