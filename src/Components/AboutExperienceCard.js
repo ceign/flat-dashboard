@@ -13,8 +13,7 @@ const ExperienceCard = () => {
             <li key={index}>
               <div>
                 <h4 className="about__experience-card__company">
-                  {" "}
-                  {item.company}{" "}
+                  {item.company}
                 </h4>
                 <p className="about__experience-card__role"> {item.role} </p>
               </div>
@@ -24,7 +23,7 @@ const ExperienceCard = () => {
         </ul>
 
         <p className="about__experience-card__linkedin">
-          Puedes ver los detalles en mi <a href="dummyText">Linkedin !</a>
+          Puedes ver los detalles en mi <a href="dummyText">Linkedin!</a>
         </p>
       </div>
     </div>

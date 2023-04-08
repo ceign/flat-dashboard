@@ -9,7 +9,6 @@
 }
 
 .about__profile-card .about__profile-card__wrapper h3 {
-  font: normal 700 16px/1 var(--raleway-font);
   font: normal 700 20px/1 var(--raleway-font);
   letter-spacing: 0.045em;
   color: var(--text-color);
@@ -17,7 +16,6 @@
 }
 
 .about__profile-card .about__profile-card__wrapper p {
-  font: normal 400 14px/1.4 var(--raleway-font);
   font: normal 400 16px/1.5 var(--raleway-font);
   color: var(--text-color-gray);
   margin-bottom: 12px;

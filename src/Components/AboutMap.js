@@ -20,7 +20,7 @@ const AboutMap = () => {
   return (
     <MapContainer
       center={position}
-      zoom={12}
+      zoom={9}
       scrollWheelZoom={false}
       className="about__location-card__map"
     >

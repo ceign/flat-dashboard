@@ -16,7 +16,6 @@
 }
 
 .about__skills-card .about__skills-card__wrapper p {
-  font: normal 400 14px/1.4 var(--raleway-font);
   font: normal 400 16px/1.5 var(--raleway-font);
   color: var(--text-color-gray);
   margin-bottom: 12px;

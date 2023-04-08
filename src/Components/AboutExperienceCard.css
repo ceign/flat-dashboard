@@ -15,7 +15,6 @@
 }
 
 .about__experience-card .about__experience-card__wrapper h3 {
-  font: normal 700 16px/1 var(--raleway-font);
   font: normal 700 20px/1 var(--raleway-font);
   letter-spacing: 0.045em;
   color: var(--text-color);
@@ -34,7 +33,6 @@
 }
 
 .about__experience-card .about__experience-card__wrapper ul li h4.about__experience-card__company {
-  font: normal 700 15px/1.4 var(--raleway-font);
   font: normal 700 16px/1.5 var(--raleway-font);
   letter-spacing: 0.025em;
   color: var(--text-color-gray);
