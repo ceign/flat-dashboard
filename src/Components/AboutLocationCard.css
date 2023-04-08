@@ -16,15 +16,10 @@
 }
 
 .about__location-card .about__location-card__wrapper h3 {
-  font: normal 700 16px/1 var(--raleway-font);
+  font: normal 700 20px/1 var(--raleway-font);
   letter-spacing: 0.045em;
   color: var(--text-color);
   margin: 0 0 24px;
-}
-
-.about__location-card .about__location-card__wrapper .about__location-card__map {
-  width: 100%;
-  height: 100%;
 }
 
 .about__location-card .about__location-card__wrapper .about__location-card__map img {

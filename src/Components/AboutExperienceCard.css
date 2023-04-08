@@ -16,6 +16,7 @@
 
 .about__experience-card .about__experience-card__wrapper h3 {
   font: normal 700 16px/1 var(--raleway-font);
+  font: normal 700 20px/1 var(--raleway-font);
   letter-spacing: 0.045em;
   color: var(--text-color);
   margin: 0 0 32px
@@ -34,6 +35,7 @@
 
 .about__experience-card .about__experience-card__wrapper ul li h4.about__experience-card__company {
   font: normal 700 15px/1.4 var(--raleway-font);
+  font: normal 700 16px/1.5 var(--raleway-font);
   letter-spacing: 0.025em;
   color: var(--text-color-gray);
   margin: 0 0 8px;
@@ -46,15 +48,16 @@
 }
 
 .about__experience-card .about__experience-card__wrapper ul li p.about__experience-card__date {
-  font: normal 700 14px/1.4 var(--raleway-font);
+  align-self: flex-end;
+  font: normal 700 16px/1.4 var(--raleway-font);
   letter-spacing: 0.025em;
   color: var(--primary-color);
 }
 
 .about__experience-card .about__experience-card__wrapper .about__experience-card__linkedin {
-  font: normal 500 14px/1.4 var(--raleway-font);
+  font: normal 500 16px/1.4 var(--raleway-font);
   letter-spacing: 0.025em;
-  color: var(--text-color);
+  color: var(--text-color-gray);
   margin: 40px 0 0;
 }
 

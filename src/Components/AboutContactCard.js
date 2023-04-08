@@ -1,5 +1,6 @@
 import React from "react";
 import "../Components/AboutContactCard.css";
+import Carousel from "./AboutCarousel";
 
 const AboutContactCard = () => {
   return (
@@ -9,20 +10,15 @@ const AboutContactCard = () => {
           <h3>Contacto</h3>
           <p>
             Si tienes alguna pregunta o simplemente quieres saludar, no dudes en
-            ponerte en contacto conmigo. Me encantaría saber más sobre ti y cómo
-            puedo ayudarte a alcanzar tus objetivos. ¡Espero saber de ti pronto!
+            ponerte en contacto conmigo. <br /> Me encantaría saber más sobre ti
+            y cómo puedo ayudarte a alcanzar tus objetivos. ¡Espero saber de ti
+            pronto!
           </p>
-          <div className="about__contact-card__rrss">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
         </div>
 
-        <div className="about__contact-card__images"></div>
+        <div className="about__contact-card__images">
+          <Carousel />
+        </div>
       </div>
     </div>
   );
