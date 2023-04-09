@@ -6,10 +6,7 @@ import "../Components/AboutHeader.css";
 
 const ParticlesBg = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
-    // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-    // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-    // starting from v2 you can add only the features you need reducing the bundle size
+    // console.log(engine);
     await loadFull(engine);
   }, []);
 
@@ -25,12 +22,6 @@ const ParticlesBg = () => {
       options={{
         fullScreen: {
           enable: false,
-        },
-        background: {
-          // color: {
-          //   value: "#000000",
-          //   opacity: 0.1,
-          // },
         },
         fpsLimit: 120,
         interactivity: {
@@ -61,7 +52,7 @@ const ParticlesBg = () => {
               },
             },
             push: {
-              quantity: 4,
+              quantity: 2,
             },
             remove: {
               quantity: 2,
@@ -99,11 +90,9 @@ const ParticlesBg = () => {
           number: {
             density: {
               enable: true,
-              area: 1000,
+              area: 800,
             },
-            maxParticles: 110,
-            limit: 110,
-            value: 200,
+            value: 60,
           },
           opacity: {
             value: 0.4,
@@ -119,6 +108,33 @@ const ParticlesBg = () => {
           },
         },
         detectRetina: true,
+        responsive: [
+          {
+            breakpoint: 450,
+            options: {
+              particles: {
+                number: {
+                  // value: 0,
+                },
+                interactivity: {
+                  events: {
+                    onClick: {
+                      enable: false,
+                    },
+                  },
+                  modes: {
+                    push: {
+                      quantity: 0,
+                    },
+                    repulse: {
+                      distance: 0,
+                    },
+                  },
+                },
+              },
+            },
+          },
+        ],
       }}
     />
   );
