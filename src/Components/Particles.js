@@ -27,10 +27,6 @@ const ParticlesBg = () => {
         interactivity: {
           detectsOn: "window",
           events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
             onHover: {
               enable: true,
               mode: "repulse",
@@ -90,9 +86,9 @@ const ParticlesBg = () => {
           number: {
             density: {
               enable: true,
-              area: 800,
+              area: 1000,
             },
-            value: 60,
+            value: 120,
           },
           opacity: {
             value: 0.4,
@@ -108,33 +104,6 @@ const ParticlesBg = () => {
           },
         },
         detectRetina: true,
-        responsive: [
-          {
-            breakpoint: 450,
-            options: {
-              particles: {
-                number: {
-                  // value: 0,
-                },
-                interactivity: {
-                  events: {
-                    onClick: {
-                      enable: false,
-                    },
-                  },
-                  modes: {
-                    push: {
-                      quantity: 0,
-                    },
-                    repulse: {
-                      distance: 0,
-                    },
-                  },
-                },
-              },
-            },
-          },
-        ],
       }}
     />
   );

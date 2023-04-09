@@ -66,6 +66,7 @@
 }
 
 #tsparticles {
+  display: none;
   height: 100%
 }
 
