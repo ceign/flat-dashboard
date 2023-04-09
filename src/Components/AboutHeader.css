@@ -9,6 +9,7 @@
   height: 100%;
   background-image: linear-gradient(to top, rgba(36, 72, 204, 0.605) 0%, #2cbaf7 100%);
   border-radius: 16px;
+  user-select: none;
 }
 
 .about__header .about__header__profile {
@@ -107,6 +108,11 @@
     height: 130px;
     margin: 0 32px 0;
   }
+
+  #tsparticles {
+    height: 100%
+  }
+
 }
 
 @media only screen and (min-width: 1600px) {

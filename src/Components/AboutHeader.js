@@ -1,11 +1,16 @@
 import React from "react";
 import "../Components/AboutHeader.css";
 import avatarImage from "../Assets/Images/avatar.png";
+import ParticlesBg from "./Particles";
 
 const AboutHeader = () => {
   return (
     <div className="about__header">
-      <div className="about__header__background"></div>
+      <div className="about__header__background">
+        <>
+          <ParticlesBg />
+        </>
+      </div>
       <div className="about__header__profile">
         <div className="about__header__avatar">
           <figure>
