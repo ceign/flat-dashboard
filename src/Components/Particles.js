@@ -6,7 +6,6 @@ import "../Components/AboutHeader.css";
 
 const ParticlesBg = () => {
   const particlesInit = useCallback(async (engine) => {
-    // console.log(engine);
     await loadFull(engine);
   }, []);
 
@@ -88,7 +87,7 @@ const ParticlesBg = () => {
               enable: true,
               area: 1000,
             },
-            value: 120,
+            value: 140,
           },
           opacity: {
             value: 0.4,
