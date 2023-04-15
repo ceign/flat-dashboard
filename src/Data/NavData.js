@@ -45,8 +45,8 @@ const menuItem = [
   },
 
   {
-    path: "/ui-design",
-    name: "UI Design",
+    path: "/prototipado",
+    name: "Prototipado",
     icon: (
       <svg
         width="14"

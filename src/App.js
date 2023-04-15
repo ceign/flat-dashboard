@@ -20,7 +20,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/inicio" element={<Home />} />
             <Route path="/acerca-de" element={<About />} />
-            <Route path="/ui-design" element={<UserInterfaceDesign />} />
+            <Route path="/prototipado" element={<UserInterfaceDesign />} />
             <Route path="/proyectos" element={<Projects />} />
             <Route path="/design-system" element={<DesignSystem />} />
             <Route path="/sexy-button" element={<SexyButton />} />

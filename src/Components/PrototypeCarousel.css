@@ -1,0 +1,43 @@
+.carousel {
+  background-color: var(--white-color);
+  padding: 2rem 1rem;
+}
+
+.carousel .carousel__wrapper {
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  .carousel .carousel__wrapper {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0 32px;
+    max-width: 1000px;
+  }
+
+  .carousel .carousel__wrapper>div:first-child {
+    grid-column: 1 / 5;
+  }
+
+  .carousel .carousel__wrapper .carousel__info {
+    grid-column: 5 / -1;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .carousel .carousel__wrapper {
+    grid-gap: 0 60px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .carousel .carousel__wrapper {
+    grid-gap: 0;
+    max-width: 1100px;
+  }
+
+  .carousel .carousel__wrapper>div:first-child {
+    max-width: 480px;
+  }
+}

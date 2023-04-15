@@ -38,35 +38,35 @@ const AboutCarousel = () => {
   return (
     <>
       <div ref={sliderRef} className="keen-slider">
-        <div className="keen-slider__slide number-slide1">
+        <div className="keen-slider__slide">
           <div className="about__contact-card__image">
             <figure>
               <img src={slide1} alt="Dummy text" />
             </figure>
           </div>
         </div>
-        <div className="keen-slider__slide number-slide1">
+        <div className="keen-slider__slide">
           <div className="about__contact-card__image">
             <figure>
               <img src={slide1} alt="Dummy text" />
             </figure>
           </div>
         </div>
-        <div className="keen-slider__slide number-slide1">
+        <div className="keen-slider__slide">
           <div className="about__contact-card__image">
             <figure>
               <img src={slide1} alt="Dummy text" />
             </figure>
           </div>
         </div>
-        <div className="keen-slider__slide number-slide1">
+        <div className="keen-slider__slide">
           <div className="about__contact-card__image">
             <figure>
               <img src={slide1} alt="Dummy text" />
             </figure>
           </div>
         </div>
-        <div className="keen-slider__slide number-slide1">
+        <div className="keen-slider__slide">
           <div className="about__contact-card__image">
             <figure>
               <img src={slide1} alt="Dummy text" />

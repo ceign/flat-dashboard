@@ -1,0 +1,41 @@
+.carousel__info__variants {
+  width: 100%;
+}
+
+.carousel__info__variants>ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 18px;
+  width: 100%;
+  list-style: none;
+}
+
+.carousel__info__variant {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel__info__variant:hover,
+.carousel__info__variant.carousel__info__variant--selected {
+  border: 2px solid var(--border-input);
+}
+
+.carousel__info__variant.carousel__info__variant--black {
+  background-color: var(--black-color);
+}
+
+.carousel__info__variant.carousel__info__variant--gray {
+  background-color: var(--gray-color);
+}
+
+@media only screen and (min-width: 1024px) {
+  .carousel__info__variants {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 48px;
+  }
+}

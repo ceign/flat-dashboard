@@ -58,6 +58,10 @@
   margin: 80px 0 0;
 }
 
+.home__about-card__button a {
+  text-decoration: none;
+}
+
 .home__about-card__button button {
   display: flex;
   flex-flow: row nowrap;
