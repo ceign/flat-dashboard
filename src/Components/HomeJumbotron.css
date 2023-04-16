@@ -32,6 +32,10 @@
   margin: 28px 0 56px;
 }
 
+.home__jumbotron .home__jumbotron__wrapper .home__jumbotron__button a {
+  text-decoration: none;
+}
+
 .home__jumbotron .home__jumbotron__wrapper .home__jumbotron__button button {
   display: flex;
   flex-flow: row nowrap;
