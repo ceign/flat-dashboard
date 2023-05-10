@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutHeader from "../Components/AboutHeader";
 import AboutProfileCard from "../Components/AboutProfileCard";
 import AboutSkillsCard from "../Components/AboutSkillsCard";
@@ -8,6 +8,10 @@ import AboutContactCard from "../Components/AboutContactCard";
 import "../Pages/About.css";
 
 const About = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="about">
       <AboutHeader />

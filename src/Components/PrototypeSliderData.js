@@ -132,7 +132,7 @@ const PrototypeSliderData = () => {
           </div>
 
           <button className="carousel__info__button">
-            <span>Agregar al carrito</span>
+            <span>Añadir a la cesta</span>
           </button>
         </div>
       </div>

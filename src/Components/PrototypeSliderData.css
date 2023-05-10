@@ -3,8 +3,9 @@
 }
 
 .carousel__info .carousel__info__header .carousel__info__title {
-  font: normal 800 24px/1 var(--nunito-sans-font);
+  font: normal 800 24px/1 var(--nunito-font);
   color: var(--black-color);
+  text-transform: uppercase;
 }
 
 .carousel__info .carousel__info__header .carousel__info__rating {
@@ -16,13 +17,13 @@
 }
 
 .carousel__info .carousel__info__header .carousel__info__rating>p {
-  font: normal 700 14px/1 var(--nunito-sans-font);
+  font: normal 700 14px/1 var(--nunito-font);
   color: var(--black-color);
   opacity: .8;
 }
 
 .carousel__info .carousel__info__header p.carousel__info__price {
-  font: normal 800 28px/1 var(--nunito-sans-font);
+  font: normal 800 28px/1 var(--nunito-font);
   color: var(--black-color);
 }
 
@@ -34,7 +35,7 @@
 }
 
 .carousel__info .carousel__info__body p.carousel__info__description {
-  font: normal 400 16px/1.35 var(--nunito-sans-font);
+  font: normal 400 16px/1.35 var(--nunito-font);
   color: var(--black-color);
 }
 
@@ -45,7 +46,7 @@
 }
 
 .carousel__info .carousel__info__body .carousel__info__size>p {
-  font: normal 400 16px/1 var(--nunito-sans-font);
+  font: normal 400 16px/1 var(--nunito-font);
   color: var(--black-color);
   margin: 0 0 12px;
 }
@@ -67,13 +68,13 @@
   justify-content: center;
   width: 48px;
   height: 48px;
-  font: normal 700 16px/1 var(--nunito-sans-font);
+  font: normal 600 16px/1 var(--nunito-font);
   outline: 1px solid var(--input-gray);
   cursor: pointer;
 }
 
 .carousel__info .carousel__info__body .carousel__info__colors>p {
-  font: normal 400 16px/1 var(--nunito-sans-font);
+  font: normal 400 16px/1 var(--nunito-font);
   color: var(--black-color);
   margin: 0 0 12px;
 }
@@ -88,11 +89,11 @@
 
 .carousel__info .carousel__info__footer p.carousel__info__shipment {
   flex-basis: 100%;
-  font: normal 400 14px/1 var(--nunito-sans-font);
+  font: normal 400 14px/1 var(--nunito-font);
 }
 
 .carousel__info .carousel__info__footer p.carousel__info__shipment span {
-  font: normal 700 14px/1 var(--nunito-sans-font);
+  font: normal 700 14px/1 var(--nunito-font);
   text-decoration: underline;
 }
 
@@ -106,7 +107,7 @@
 }
 
 .carousel__info .carousel__info__count button {
-  font: normal 800 16px/1 var(--nunito-sans-font);
+  font: normal 800 16px/1 var(--nunito-font);
   width: 40px;
   height: 100%;
   background-color: var(--input-gray);
@@ -124,7 +125,7 @@
 }
 
 .carousel__info .carousel__info__count .carousel__info__items>span {
-  font: normal 600 16px/1 var(--nunito-sans-font);
+  font: normal 600 16px/1 var(--nunito-font);
   color: var(--black-color);
 }
 
@@ -140,7 +141,9 @@
 
 .carousel__info .carousel__info__footer .carousel__info__button>span {
   display: inline-block;
-  font: normal 400 16px/1 var(--nunito-sans-font);
+  font: normal 600 13px/1 var(--nunito-font);
+  letter-spacing: .6px;
+  text-transform: uppercase;
   color: var(--white-color);
 }
 

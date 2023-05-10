@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Pages/Home.css";
 import Pill from "../Components/HomePills";
 import HomeJumbotron from "../Components/HomeJumbotron";
@@ -8,6 +8,10 @@ import HomeProjectCardLarge from "../Components/HomeProjectCardLarge";
 import HomeProjectCardSmall from "../Components/HomeProjectCardSmall";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="home">
       <div className="home__header">

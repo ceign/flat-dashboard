@@ -14,7 +14,6 @@
 
   --raleway-font: 'Raleway', sans-serif;
   --nunito-font: 'Nunito', sans-serif;
-  --nunito-sans-font: 'Nunito Sans', sans-serif;
 
   --gradient-bg-email: linear-gradient(90deg, rgb(149, 149, 149) 0%, rgb(96, 103, 104) 100%);
   --gradient-bg-in: linear-gradient(90deg, rgb(57, 135, 214) 0%, rgb(48, 95, 237) 100%);
@@ -52,8 +51,12 @@
 
   --input-gray: #dddddd;
   --border-input: #808080;
-  --border-carousel: #dfdfdf;
+  --border-carousel: #ececec;
   --bg-button-black: #0e0d0d;
+
+
+  --gray-card-prototype: #edeeef;
+
 }
 
 * {
