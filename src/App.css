@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 
 :root {
   --primary-color: #17c1e8;
@@ -14,6 +16,7 @@
 
   --raleway-font: 'Raleway', sans-serif;
   --nunito-font: 'Nunito', sans-serif;
+  --poppins-font: 'Poppins', sans-serif;
 
   --gradient-bg-email: linear-gradient(90deg, rgb(149, 149, 149) 0%, rgb(96, 103, 104) 100%);
   --gradient-bg-in: linear-gradient(90deg, rgb(57, 135, 214) 0%, rgb(48, 95, 237) 100%);

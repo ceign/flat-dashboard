@@ -1,13 +1,33 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../Components/PrototypeCard.css";
 import productInfo from "../Data/CardsData";
 
 const PrototypeCard = () => {
+  const [cardsToShow, setCardsToShow] = useState([]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isMobile = window.innerWidth < 768;
+      const updatedCardsToShow = isMobile
+        ? productInfo.slice(0, 4)
+        : productInfo;
+      setCardsToShow(updatedCardsToShow);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className="cards">
       <div className="cards__wrapper">
         <ul className="cards__items">
-          {productInfo.map((item, index) => (
+          {cardsToShow.map((item, index) => (
             <li key={index}>
               <div className="card">
                 <div className="card__wrapper">

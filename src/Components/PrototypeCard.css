@@ -1,3 +1,7 @@
+.cards {
+  padding: 2rem 0;
+}
+
 .cards .cards__wrapper {
   width: 100%;
   height: auto;
