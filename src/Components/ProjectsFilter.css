@@ -1,0 +1,185 @@
+.navigation-project {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.navigation-project>li {
+  flex-basis: calc(50% - 0.5rem);
+  margin: 0 0 1rem;
+}
+
+.navigation-project__item {
+  width: 100%;
+  font: normal 700 12px/1 var(--raleway-font);
+  letter-spacing: .5px;
+  color: var(--text-color);
+  text-transform: uppercase;
+  padding: 12px 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .2s background-color ease-in-out;
+}
+
+.navigation-project__item.navigation-project__item--active {
+  background-color: var(--primary-color);
+}
+
+.navigation-project__item.navigation-project__item--active.navigation-project__item {
+  color: var(--white-color);
+}
+
+.cards-project {
+  margin: 2rem 0 0;
+}
+
+.cards-project__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 3rem;
+  list-style: none;
+}
+
+.cards-project__list>li {
+  margin: auto;
+}
+
+.card-project {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--project-card-border);
+  box-shadow: 0rem 20px 30px -12px rgba(62, 57, 127, 0.1);
+}
+
+.card-project .card-project__header figure {
+  margin: auto;
+}
+
+.card-project .card-project__header figure img {
+  display: block;
+  width: 100%;
+  height: 148px;
+  border-radius: 16px;
+  box-shadow: 0 10px 10px -10px rgba(9, 8, 30, 0.233);
+  object-fit: cover;
+}
+
+.card-project .card-project__body {
+  padding: 1rem;
+}
+
+.card-project .card-project__body .card-project__subtitle {
+  font: normal 500 16px/1 var(--raleway-font);
+  color: var(--black-color);
+  margin: 1rem 0;
+}
+
+.card-project .card-project__body .card-project__title {
+  font: normal 600 18px/1 var(--raleway-font);
+  color: var(--black-color);
+}
+
+.card-project .card-project__body .card-project__description {
+  font: normal 400 16px/1.5 var(--raleway-font);
+  color: var(--black-color);
+  margin: 1rem 0;
+}
+
+.card-project .card-project__footer {
+  padding: 1rem;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 1rem;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>a {
+  flex-basis: 70%;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper button {
+  width: 100%;
+  font: normal 700 12px/1 var(--raleway-font);
+  letter-spacing: 0.025em;
+  color: var(--text-color);
+  text-transform: uppercase;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>.card-project__stack {
+  flex-basis: 30%;
+  position: relative;
+  height: 24px;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>.card-project__stack span {
+  display: inline-block;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>.card-project__stack span:first-child {
+  right: 32px;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>.card-project__stack span:nth-child(2) {
+  right: 16px;
+}
+
+.card-project .card-project__footer .card-project__footer__wrapper>.card-project__stack span:last-child {
+  right: 0;
+}
+
+.card-project .card-project__footer button {
+  box-shadow: 0px 2px 4px rgba(24, 14, 142, 0.25);
+}
+
+@media only screen and (min-width:1024px) {
+  .navigation-project {
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+
+  .navigation-project__item {
+    min-width: 160px;
+  }
+
+  .navigation-project>li {
+    flex-basis: 0;
+    margin: 0;
+  }
+
+  .cards-project {
+    margin: 6rem 0 0;
+  }
+}
+
+@media only screen and (min-width:1600px) {
+  .cards-project__list {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+
+  .card-project {
+    max-width: initial;
+  }
+
+  .card-project .card-project__body .card-project__description {
+    margin: 3rem 0 1rem;
+  }
+
+  .card-project .card-project__header figure img {
+    height: 200px;
+  }
+}

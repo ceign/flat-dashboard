@@ -59,6 +59,9 @@
 
 
   --gray-card-prototype: #edeeef;
+  --card-border: #d0cee074;
+
+  --project-card-border: #d0cee04d;
 
 }
 
@@ -81,7 +84,7 @@ main>section {
   margin-left: 0;
 }
 
-@media (min-width: 1200px) {
+@media only screen and (min-width:1200px) {
   header {
     padding-left: calc(274px + 100px) !important;
   }
@@ -92,7 +95,7 @@ main>section {
   }
 
   main>section {
-    padding: 0;
+    padding: 0 1rem 6rem;
   }
 
   .dashboard__wrapper {

@@ -48,7 +48,7 @@ const PrototypeCart = () => {
 };
 
 const CartItem = ({ item }) => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const incrementCount = () => {
     if (count < 8) {
@@ -97,7 +97,12 @@ const CartItem = ({ item }) => {
           </div>
         </div>
         <div className="cart__item__price">
-          <p>{item.price}</p>
+          <p>
+            {(item.price * count).toLocaleString("es-CL", {
+              style: "currency",
+              currency: "CLP",
+            })}
+          </p>
         </div>
       </div>
     </li>

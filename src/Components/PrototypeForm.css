@@ -1,0 +1,190 @@
+.form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  border: 1px solid var(--card-border);
+}
+
+.form .form__header h3 {
+  font: normal 600 16px/1.3 var(--poppins-font);
+  color: var(--black-color);
+  margin: 0 0 1.5rem;
+}
+
+.credit-card {
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 0 2rem;
+  border: 1px solid var(--card-border);
+}
+
+.credit-card .credit-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 1.5rem;
+}
+
+.credit-card .credit-card__header .credit-card__input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.credit-card .credit-card__header .credit-card__logos {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.credit-card .credit-card__header .credit-card__input label {
+  display: inline-flex;
+  width: 100%;
+  font: normal 400 14px/1.3 var(--poppins-font);
+  color: var(--black-color);
+  padding: 0.5rem 0;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+.credit-card .credit-card__header .credit-card__logos figure {
+  width: 40px;
+}
+
+.credit-card .credit-card__header .credit-card__logos figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.credit-card .credit-card__body .credit-card__form .credit-card__form__group input {
+  width: 100%;
+  padding: .8rem;
+  background-color: var(--gray-bg);
+  margin: 0 0 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--card-border);
+}
+
+.credit-card .credit-card__body .credit-card__form .credit-card__form__group input::placeholder {
+  font: normal 400 13px/1 var(--poppins-font);
+  color: var(--text-color-gray);
+}
+
+.paypal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 0 2rem;
+}
+
+.paypal .paypal__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.paypal figure {
+  width: 68px;
+  height: 30px;
+}
+
+.paypal figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.paypal .paypal__input label {
+  width: 100%;
+  font: normal 400 14px/1 var(--poppins-font);
+  color: var(--black-color);
+  padding: 0.5rem 0;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+.neteller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 0 2rem;
+}
+
+.neteller .neteller__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.neteller figure {
+  width: 68px;
+  height: 30px;
+}
+
+.neteller figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.neteller .neteller__input label {
+  width: 100%;
+  font: normal 400 14px/1 var(--poppins-font);
+  color: var(--black-color);
+  padding: 0.5rem 0;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+.amazon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--card-border);
+  border-radius: 6px;
+  padding: 1rem;
+  margin: 0 0 2rem;
+}
+
+.amazon .amazon__input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.amazon figure {
+  width: 68px;
+  height: 30px;
+}
+
+.amazon figure>img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.amazon .amazon__input label {
+  width: 100%;
+  font: normal 400 14px/1 var(--poppins-font);
+  color: var(--black-color);
+  padding: 0.5rem 0;
+  margin: 0 0 0 0.5rem;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .form {
+    margin: 0;
+  }
+}

@@ -1,8 +1,6 @@
 .cart {
-  border: 1px solid red;
-  max-width: 600px;
   padding: 2rem 1rem;
-  border: 1px solid var(--gray-color);
+  border: 1px solid var(--card-border);
 }
 
 .cart .cart__header {
@@ -222,4 +220,21 @@
 .cart__item .cart__item__price p {
   font: normal 600 15px/1.35 var(--nunito-font);
   color: var(--black-color);
+}
+
+@media only screen and (min-width: 1600px) {
+  .cart__items .cart__item {
+    grid-template-columns: 5% 40% auto;
+    grid-template-rows: 1fr;
+  }
+
+  .cart__item .cart__item__image {
+    grid-column: 2 / 3;
+  }
+
+  .cart__item .cart__item__detail {
+    grid-column: 3 / 4;
+    align-self: center;
+    gap: 0 48px;
+  }
 }

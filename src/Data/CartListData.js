@@ -6,7 +6,7 @@ const listItem = [
     name: "Trench Larga",
     color: "Green",
     size: "M",
-    price: "$ 59.990",
+    price: 59990,
   },
 
   {
@@ -14,7 +14,7 @@ const listItem = [
     name: "Chaleco Lana",
     color: "Red",
     size: "XXL",
-    price: "$ 39.990",
+    price: 39990,
   },
 
   {
@@ -22,7 +22,7 @@ const listItem = [
     name: "Camisa Polo",
     color: "Blue",
     size: "XS",
-    price: "$ 12.990",
+    price: 12990,
   },
 ];
 
