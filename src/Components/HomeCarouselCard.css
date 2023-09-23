@@ -80,6 +80,11 @@
   justify-content: center;
   width: 20px;
   height: 20px;
+  transition: .15s margin-left ease-in-out;
+}
+
+.home__carousel-card__footer button:hover span {
+  margin-left: 10px;
 }
 
 @media (min-width: 1200px) {}

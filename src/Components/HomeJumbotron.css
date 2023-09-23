@@ -33,6 +33,7 @@
 }
 
 .home__jumbotron .home__jumbotron__wrapper .home__jumbotron__button a {
+  display: block;
   text-decoration: none;
 }
 
@@ -55,6 +56,11 @@
   justify-content: center;
   width: 20px;
   height: 20px;
+  transition: .15s margin-left ease-in-out;
+}
+
+.home__jumbotron .home__jumbotron__wrapper .home__jumbotron__button a button:hover span {
+  margin-left: 10px;
 }
 
 .home__jumbotron__image {

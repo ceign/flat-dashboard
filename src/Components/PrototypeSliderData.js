@@ -131,6 +131,12 @@ const PrototypeSliderData = () => {
             <button onClick={incrementCount}>+</button>
           </div>
 
+          <div className="carousel__info__stock-message">
+            {count >= 8 && (
+              <p>No puedes llevar más de 8 prendas en este producto</p>
+            )}
+          </div>
+
           <button className="carousel__info__button">
             <span>Añadir a la cesta</span>
           </button>

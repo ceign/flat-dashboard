@@ -115,6 +115,11 @@
   justify-content: center;
   width: 20px;
   height: 20px;
+  transition: .15s margin-left ease-in-out;
+}
+
+.home__projects-card-large .home__projects-card-large__footer button:hover span {
+  margin-left: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
