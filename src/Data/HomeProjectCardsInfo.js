@@ -4,7 +4,7 @@ const cardsData = [
   {
     logoSrc: projectLogo,
     altAttr: "Project logo",
-    title: "Card title",
+    title: "Proyecto A",
     stack1: (
       <svg
         width="24"
@@ -110,13 +110,13 @@ const cardsData = [
         />
       </svg>
     ),
-    date: "01.01.20",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
+    date: "01.01.23",
+    text: "Coloca aquí un resumen corto de uno de tus trabajos recientes, resaltando el objetivo o el resultado más importante.",
   },
 
   {
     logoSrc: projectLogo,
-    title: "Card title B",
+    title: "Proyecto B",
     altAttr: "Project logo B",
     stack1: (
       <svg
@@ -223,8 +223,8 @@ const cardsData = [
         />
       </svg>
     ),
-    date: "02.02.20",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
+    date: "02.02.23",
+    text: "Un espacio para destacar otro de tus proyectos, con un texto breve que invite a conocer más detalles.",
   },
 ];
 

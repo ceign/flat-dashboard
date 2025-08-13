@@ -74,7 +74,10 @@ const Sidebar = ({ children }) => {
                       <ul className="sidebar__icons">
                         {sidebarIconsLinks.map((item, index) => (
                           <li key={index} className="sidebar__icon">
-                            <NavLink to={item.linkHref}>
+                            <NavLink
+                              to={item.linkHref}
+                              onClick={(e) => e.preventDefault()}
+                            >
                               <span>{item.icon}</span>
                             </NavLink>
                           </li>

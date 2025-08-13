@@ -1,9 +1,29 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
 import "../Components/Header.css";
 import "../Components/ButtonSettings.css";
 import "../Components/Sidebar";
 
 const Header = () => {
+  const location = useLocation();
+
+  // Mapea las rutas a nombres legibles
+  const routeNames = {
+    "/": "Inicio",
+    "/inicio": "Inicio",
+    "/sobre-mi": "Sobre mi",
+    "/prototipado": "Componentes",
+    "/proyectos": "Proyectos",
+  };
+
+  // Obtiene el nombre de la ruta actual
+  const pageName =
+    routeNames[location.pathname] ||
+    location.pathname
+      .replace("/", "")
+      .replace(/-/g, " ")
+      .replace(/\b\w/g, (l) => l.toUpperCase());
+
   return (
     <header>
       <div className="breadcrumb">
@@ -24,9 +44,9 @@ const Header = () => {
             </svg>
           </span>
 
-          <p>Inicio</p>
+          <p>{pageName}</p>
         </div>
-        <p className="breadcrumb__rute">Inicio</p>
+        <p className="breadcrumb__rute">{pageName}</p>
       </div>
 
       <button className="button-settings">

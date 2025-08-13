@@ -2,12 +2,10 @@ import React from "react";
 import "../Components/Footer.css";
 
 const Footer = () => {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="footer">
       <p>
-        © {currentYear}, Con{" "}
+        © 2023 - Con{" "}
         <span>
           <svg
             width="14"

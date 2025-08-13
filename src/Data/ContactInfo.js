@@ -1,8 +1,8 @@
 const sidebarContact = [
   {
     title: "Información de contacto",
-    dataName: "Marcelo Gajardo",
-    dataRole: "UI/Front End Designer",
+    dataName: "Sasaki Kojiro",
+    dataRole: "UI Designer",
     dataLocation: "Santiago, Chile",
   },
 ];

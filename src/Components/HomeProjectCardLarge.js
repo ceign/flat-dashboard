@@ -14,7 +14,7 @@ const HomeProjectCardLarge = () => {
           </div>
           <div className="home__projects-card-large__info">
             <h4 className="home__projects-card-large__title">
-              Premium support
+              Proyecto destacado
             </h4>
             <div className="home__projects-card-large__stack">
               <span>
@@ -146,13 +146,11 @@ const HomeProjectCardLarge = () => {
         <div className="home__projects-card-large__body">
           <div className="home__projects-card-large__description">
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At sunt
-              praesentium corporis omnis accusamus sed explicabo temporibus
-              consectetur dolorem veritatis, labore quos. Hic assumenda sequi
-              enim dicta culpa earum ut!
+              Un ejemplo de cómo puedes presentar un proyecto clave en tu
+              portafolio, con una breve descripción y detalles relevantes.
             </p>
             <div className="home__projects-card-large__date">
-              <p>10.09.2021</p>
+              <p>10.09.2023</p>
 
               <p>Fecha de proyecto</p>
             </div>

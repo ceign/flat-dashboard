@@ -108,7 +108,7 @@ const GalleryReact = () => {
 
                     <div className="card-project__footer">
                       <div className="card-project__footer__wrapper">
-                        <a href="/">
+                        <a href="/" onClick={(e) => e.preventDefault()}>
                           <button>Ver proyecto</button>
                         </a>
 

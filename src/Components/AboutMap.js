@@ -29,9 +29,7 @@ const AboutMap = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={position} icon={iconUbication}>
-        <Popup>
-          El mejor país de Chile <br /> hmno
-        </Popup>
+        <Popup>El mejor país de Chile</Popup>
       </Marker>
     </MapContainer>
   );

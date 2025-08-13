@@ -19,8 +19,8 @@ const menuItem = [
   },
 
   {
-    path: "/acerca-de",
-    name: "Acerca de",
+    path: "/sobre-mi",
+    name: "Sobre mi",
     icon: (
       <svg
         width="11"
@@ -45,8 +45,8 @@ const menuItem = [
   },
 
   {
-    path: "/prototipado",
-    name: "Prototipado",
+    path: "/componentes",
+    name: "Componentes",
     icon: (
       <svg
         width="14"

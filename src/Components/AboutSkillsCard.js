@@ -8,9 +8,10 @@ const AboutSkillsCard = () => {
         <div className="about__skills-card__text">
           <h3>Herramientas</h3>
           <p>
-            Suelo utilizar herramientas como Figma, React y Sass para crear
-            diseños modernos y funcionales que mejoren la experiencia del
-            usuario.
+            Aquí puedes listar las herramientas, tecnologías o lenguajes que
+            sueles usar para llevar a cabo tus proyectos. Menciona tanto el
+            software de diseño como las tecnologías de desarrollo que te ayudan
+            a materializar tus ideas.
           </p>
         </div>
         <div className="about__skills-card__tools"></div>

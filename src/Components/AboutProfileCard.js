@@ -8,15 +8,10 @@ const AboutProfileCard = () => {
         <h3>Perfil</h3>
 
         <p>
-          Como diseñador de interfaces de usuario, mi objetivo es crear
-          experiencias de usuario intuitivas y atractivas que cumplan con las
-          necesidades y expectativas de los usuarios finales.
-        </p>
-
-        <p>
-          Me enfoco en cada detalle, desde la elección de los colores hasta la
-          disposición de los elementos, para lograr una experiencia de usuario
-          perfecta.
+          Aquí puedes escribir un resumen sobre ti, tu enfoque profesional y lo
+          que te apasiona en tu trabajo. Incluye detalles como tu especialidad,
+          tus valores al diseñar o desarrollar, y lo que te diferencia de otros
+          profesionales.
         </p>
       </div>
     </div>

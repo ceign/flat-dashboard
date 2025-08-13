@@ -11,12 +11,12 @@ const HomeAboutCard = () => {
           <h1>Sobre mi</h1>
 
           <p>
-            Disfruto creando prototipos para diseñar interfaces con soluciones
-            <span> creativas</span> y <span>óptimas</span> para el usuario.
+            Espacio para <span>contar quién eres</span>, tu experiencia y lo que
+            más disfrutas hacer en tu trabajo.
           </p>
         </div>
         <div className="home__about-card__button">
-          <Link to="/acerca-de">
+          <Link to="/sobre-mi">
             <button>
               Ver más
               <span>

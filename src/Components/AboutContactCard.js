@@ -9,10 +9,10 @@ const AboutContactCard = () => {
         <div className="about__contact-card__info">
           <h3>Contacto</h3>
           <p>
-            Si tienes alguna pregunta o simplemente quieres saludar, no dudes en
-            ponerte en contacto conmigo. <br /> Me encantaría saber más sobre ti
-            y cómo puedo ayudarte a alcanzar tus objetivos. ¡Espero saber de ti
-            pronto!
+            Sección con muestras de tus mejores proyectos, invita a visitantes o
+            potenciales clientes a comunicarse contigo para consultas,
+            colaboraciones o propuestas. Menciona el medio de contacto que
+            utilices habitualmente.
           </p>
         </div>
 

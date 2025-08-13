@@ -1,30 +1,30 @@
 const experienceCardData = [
   {
-    company: "Cencosud",
-    role: "AB Tester",
+    company: "Pixelwave Studio",
+    role: "UI Designer",
     date: "2022 / Actualidad",
   },
 
   {
-    company: "Leytonmedia",
+    company: "NovaUX Agency ",
     role: "UI Designer",
     date: "2020",
   },
 
   {
-    company: "Digital Mission",
+    company: "Bluegrid Interactive",
     role: "UX/UI & Front-End Designer",
     date: "2019",
   },
 
   {
-    company: "MTM Diseño y Publicidad",
+    company: "Mindflow Digital",
     role: "Front-End Developer",
     date: "2019",
   },
 
   {
-    company: "PeopleAdd",
+    company: "CodeCraft Solutions",
     role: "Front-End Designer",
     date: "2018",
   },

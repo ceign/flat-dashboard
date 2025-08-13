@@ -7,8 +7,8 @@ const HomeCarouselCard = () => {
     <div className="home__carousel-card">
       <div className="home__carousel-card__wrapper">
         <div className="home__carousel-card__header">
-          <h3> Carousel subtitle 📱</h3>
-          <h2>Carousel title</h2>
+          <h3> Diseño mobile-first 📱</h3>
+          <h2>UI para todas las medidas</h2>
         </div>
 
         <div className="home__carousel-card__body">

@@ -9,16 +9,15 @@ const HomeJumbotron = () => {
       <div className="home__jumbotron__wrapper">
         <div className="home__jumbotron__info">
           <div className="home__jumbotron__text">
-            <h3>Mejora de la experiencia</h3>
+            <h3>Experiencias que conectan</h3>
             <h2>Prototipado UI</h2>
             <p>
-              Descubre una amplia variedad de componentes y prototipos diseñados
-              y creados con atención al detalle, enfocados en mejorar la
-              experiencia del usuario.
+              Una selección de componentes UI como muestra de diseño y acabado
+              visual.
             </p>
           </div>
           <div className="home__jumbotron__button">
-            <Link to="/prototipado">
+            <Link to="/componentes">
               <button>
                 Ver más
                 <span>

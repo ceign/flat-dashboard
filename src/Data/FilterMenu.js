@@ -1,20 +1,14 @@
-import gameStore from "../Assets/Images/react-gamestore.png";
-import enel from "../Assets/Images/enel-landing-page.png";
-import visla from "../Assets/Images/visla-landing-page.png";
-import chat from "../Assets/Images/chat-component.png";
 import sd from "../Assets/Images/superdigital-landing-page.png";
-import sdSeguridad from "../Assets/Images/superdigital-seguridad-landing-page.png";
-import metro from "../Assets/Images/metro-css.png";
 
 const Menu = [
   {
     id: 1,
-    image: gameStore,
-    alt: "Proyecto Game Store",
+    image: sd,
+    alt: "Imagen genérica",
     category: "sitios",
-    subtitle: "Proyecto 11",
-    title: "Game Store Website",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -123,12 +117,12 @@ const Menu = [
   },
   {
     id: 2,
-    image: enel,
-    alt: "Proyecto Enel",
+    image: sd,
+    alt: "Imagen genérica",
     category: "sitios",
-    subtitle: "Proyecto 22",
-    title: "Enel Website",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -237,12 +231,12 @@ const Menu = [
   },
   {
     id: 3,
-    image: visla,
-    alt: "Proyecto Visla",
+    image: sd,
+    alt: "Imagen genérica",
     category: "sitios",
-    subtitle: "Proyecto 33",
-    title: "Visla Website",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -352,11 +346,11 @@ const Menu = [
   {
     id: 4,
     image: sd,
-    alt: "Proyecto Superdigital",
+    alt: "Imagen genérica",
     category: "sitios",
-    subtitle: "Proyecto 44",
-    title: "Superdigital Website",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -465,12 +459,12 @@ const Menu = [
   },
   {
     id: 5,
-    image: sdSeguridad,
-    alt: "Proyecto Superdigital Seguridad",
+    image: sd,
+    alt: "Imagen genérica",
     category: "sitios",
-    subtitle: "Proyecto 55",
-    title: "Superdigital Seguridad Website",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -579,12 +573,12 @@ const Menu = [
   },
   {
     id: 6,
-    image: chat,
-    alt: "Componente Chat",
+    image: sd,
+    alt: "Imagen genérica",
     category: "componentes",
-    subtitle: "Proyecto 66",
-    title: "Componente Chat",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"
@@ -693,12 +687,126 @@ const Menu = [
   },
   {
     id: 7,
-    image: metro,
-    alt: "Reto Metro CSS",
+    image: sd,
+    alt: "Imagen genérica",
     category: "retos",
-    subtitle: "Proyecto 77",
-    title: "Reto Metro CSS",
-    description: "Sitio web de una tienda de videojuegos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
+    stack1: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="12" cy="12" r="11.5" fill="white" stroke="#E65737" />
+        <g clipPath="url(#clip0_750_1128)">
+          <path
+            d="M10.25 18.9999C11.492 18.9999 12.5 17.9546 12.5 16.6666V14.3333H10.25C9.008 14.3333 8 15.3786 8 16.6666C8 17.9546 9.008 18.9999 10.25 18.9999Z"
+            fill="#0ACF83"
+          />
+          <path
+            d="M8 12.0001C8 10.7121 9.008 9.66675 10.25 9.66675H12.5V14.3334H10.25C9.008 14.3334 8 13.2881 8 12.0001Z"
+            fill="#A259FF"
+          />
+          <path
+            d="M8 7.33333C8 6.04533 9.008 5 10.25 5H12.5V9.66667H10.25C9.008 9.66667 8 8.62133 8 7.33333Z"
+            fill="#F24E1E"
+          />
+          <path
+            d="M12.5 5H14.75C15.992 5 17 6.04533 17 7.33333C17 8.62133 15.992 9.66667 14.75 9.66667H12.5V5Z"
+            fill="#FF7262"
+          />
+          <path
+            d="M17 12.0001C17 13.2881 15.992 14.3334 14.75 14.3334C13.508 14.3334 12.5 13.2881 12.5 12.0001C12.5 10.7121 13.508 9.66675 14.75 9.66675C15.992 9.66675 17 10.7121 17 12.0001Z"
+            fill="#1ABCFE"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_750_1128">
+            <rect
+              width="9"
+              height="14"
+              fill="white"
+              transform="translate(8 5)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+    stack2: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="12" cy="12" r="11.5" fill="white" stroke="#00D8FF" />
+        <g clipPath="url(#clip0_750_1145)">
+          <path
+            d="M16.5108 9.88547C16.3618 9.83627 16.2115 9.79069 16.0602 9.74878C16.0856 9.64878 16.109 9.54999 16.1298 9.45294C16.4709 7.8592 16.2479 6.57525 15.4862 6.15252C14.7558 5.74725 13.5614 6.16983 12.3551 7.1802C12.2362 7.27996 12.12 7.38259 12.0065 7.48799C11.9305 7.4179 11.8531 7.34917 11.7745 7.28183C10.5103 6.20152 9.24304 5.7462 8.48212 6.17015C7.75242 6.57668 7.53635 7.78368 7.84348 9.2941C7.87403 9.44369 7.90853 9.59251 7.94695 9.74041C7.76757 9.78947 7.59448 9.84168 7.42884 9.89725C5.94659 10.3946 5 11.174 5 11.9825C5 12.8175 6.0162 13.655 7.56003 14.1629C7.68519 14.2039 7.8114 14.2419 7.93852 14.2768C7.89724 14.4361 7.86058 14.5965 7.8286 14.7578C7.5358 16.242 7.76445 17.4205 8.49218 17.8244C9.2438 18.2416 10.5053 17.8128 11.7337 16.7794C11.8333 16.6954 11.9307 16.609 12.0258 16.5203C12.1487 16.6344 12.2749 16.7453 12.4043 16.8526C13.5941 17.838 14.7693 18.2359 15.4963 17.8308C16.2472 17.4125 16.4913 16.1465 16.1744 14.6062C16.1494 14.4855 16.1215 14.3655 16.0905 14.2461C16.1791 14.2208 16.266 14.1948 16.3508 14.1678C17.9557 13.656 19 12.8287 19 11.9825C19 11.1711 18.0228 10.3864 16.5108 9.88547ZM16.1627 13.6215C16.0861 13.6458 16.0076 13.6694 15.9275 13.6923C15.7504 13.1524 15.5113 12.5784 15.2186 11.9853C15.4979 11.4064 15.7278 10.8397 15.9 10.3034C16.0432 10.3433 16.1822 10.3853 16.3162 10.4297C17.6117 10.8589 18.4019 11.4935 18.4019 11.9825C18.4019 12.5034 17.5485 13.1795 16.1627 13.6215ZM15.5877 14.718C15.7278 15.399 15.7478 16.0148 15.655 16.4963C15.5716 16.9288 15.404 17.2172 15.1966 17.3327C14.7554 17.5785 13.8119 17.259 12.7943 16.4163C12.674 16.3165 12.5567 16.2135 12.4423 16.1074C12.8368 15.6922 13.2311 15.2095 13.6159 14.6734C14.2927 14.6156 14.9321 14.521 15.5119 14.392C15.5399 14.5001 15.5651 14.6088 15.5877 14.718ZM9.77291 17.2903C9.34186 17.4367 8.99853 17.4409 8.79099 17.3258C8.34939 17.0807 8.1658 16.1344 8.41622 14.8652C8.44599 14.7152 8.48007 14.566 8.51843 14.4178C9.09188 14.5399 9.72664 14.6277 10.405 14.6807C10.7924 15.2053 11.1981 15.6874 11.6069 16.1096C11.52 16.1905 11.431 16.2694 11.3401 16.346C10.7969 16.803 10.2526 17.1272 9.77291 17.2903ZM7.75352 13.6183C7.07085 13.3937 6.50708 13.1018 6.12066 12.7834C5.77339 12.4972 5.59812 12.213 5.59812 11.9825C5.59812 11.4919 6.35811 10.8661 7.62571 10.4408C7.77955 10.3892 7.94055 10.3405 8.10762 10.2948C8.28284 10.8433 8.51263 11.4167 8.78995 11.9965C8.50902 12.5849 8.27595 13.1675 8.09903 13.7224C7.98299 13.6904 7.86778 13.6557 7.75352 13.6183ZM8.43044 9.18352C8.16734 7.88946 8.34206 6.91331 8.7818 6.66831C9.25015 6.40736 10.2858 6.77941 11.3774 7.71225C11.4486 7.77322 11.5187 7.83543 11.5875 7.89883C11.1807 8.3192 10.7788 8.79778 10.3949 9.31925C9.73643 9.37799 9.10616 9.47231 8.52669 9.59868C8.49099 9.46111 8.45889 9.3227 8.43044 9.18357V9.18352ZM14.4694 10.6187C14.3325 10.3911 14.1906 10.1665 14.0437 9.94483C14.4904 9.9992 14.9183 10.0714 15.3202 10.1596C15.1996 10.5318 15.0492 10.9209 14.8722 11.3198C14.7428 11.0836 14.6085 10.8498 14.4694 10.6187ZM12.0067 8.3102C12.2826 8.59783 12.5589 8.91894 12.8306 9.26736C12.2793 9.2423 11.7272 9.2422 11.1759 9.26704C11.4479 8.92183 11.7266 8.60115 12.0067 8.3102ZM9.52823 10.6226C9.39088 10.8519 9.2591 11.0842 9.13301 11.3194C8.95888 10.9218 8.80986 10.5309 8.68818 10.1535C9.08762 10.0675 9.51358 9.99715 9.95742 9.94378C9.80886 10.1668 9.66576 10.3931 9.52823 10.6226V10.6226ZM9.97016 14.0622C9.51161 14.0129 9.07925 13.9463 8.67992 13.8626C8.80352 13.4784 8.95582 13.0792 9.13372 12.6731C9.26031 12.9084 9.39264 13.1409 9.53059 13.3703C9.67245 13.606 9.81934 13.837 9.97016 14.0622ZM12.0232 15.6954C11.7397 15.401 11.457 15.0754 11.1809 14.7252C11.449 14.7353 11.7222 14.7405 12 14.7405C12.2854 14.7405 12.5674 14.7343 12.8451 14.7224C12.5725 15.0789 12.2972 15.405 12.0232 15.6954ZM14.8778 12.6524C15.065 13.0629 15.2227 13.46 15.3479 13.8376C14.942 13.9268 14.5038 13.9986 14.042 14.0519C14.1899 13.8261 14.3332 13.5976 14.4718 13.3663C14.6126 13.1313 14.748 12.8932 14.8778 12.6524ZM13.9537 13.0787C13.7416 13.4333 13.5177 13.7811 13.2821 14.1216C12.8554 14.1507 12.4278 14.1652 12 14.1649C11.5643 14.1649 11.1405 14.1519 10.7325 14.1264C10.4907 13.7867 10.2625 13.4382 10.0481 13.0819H10.0482C9.83488 12.7274 9.63562 12.3653 9.45085 11.9963C9.63515 11.6271 9.8338 11.2648 10.0464 10.9101L10.0463 10.9102C10.2589 10.5553 10.4853 10.2084 10.7252 9.8701C11.1415 9.83978 11.5685 9.82399 11.9999 9.82399H12C12.4335 9.82399 12.8609 9.83994 13.2772 9.87047C13.5146 10.2082 13.7396 10.554 13.9517 10.907C14.165 11.261 14.3663 11.6215 14.5553 11.9881C14.3683 12.3584 14.1676 12.7222 13.9537 13.0787ZM15.1875 6.65115C15.6562 6.91136 15.8386 7.96068 15.544 9.33673C15.5252 9.42452 15.5041 9.51394 15.4811 9.60462C14.9002 9.47557 14.2695 9.37962 13.6092 9.31999C13.2245 8.79278 12.8259 8.31347 12.4257 7.89852C12.5306 7.80123 12.638 7.70646 12.7477 7.61431C13.7813 6.74868 14.7473 6.40689 15.1875 6.65115ZM12 10.7794C12.6904 10.7794 13.2502 11.318 13.2502 11.9825C13.2502 12.647 12.6904 13.1857 12 13.1857C11.3096 13.1857 10.7498 12.647 10.7498 11.9825C10.7498 11.318 11.3096 10.7794 12 10.7794Z"
+            fill="#00D8FF"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_750_1145">
+            <rect
+              width="14"
+              height="12"
+              fill="white"
+              transform="translate(5 6)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    ),
+    stack3: (
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="12" cy="12" r="11.5" fill="white" stroke="#1572B6" />
+        <path
+          d="M7.76668 17.7505L6.71387 5.9375H18.2864L17.2321 17.7486L12.4931 19.0625L7.76668 17.7505Z"
+          fill="#1572B6"
+        />
+        <path
+          d="M12.5 18.0584L16.3297 16.9967L17.2306 6.90356H12.5V18.0584Z"
+          fill="#33A9DC"
+        />
+        <path
+          d="M12.5 11.1832H14.4172L14.5494 9.69964H12.5V8.25073H16.1328L16.0981 8.63933L15.7423 12.6321H12.5V11.1832Z"
+          fill="white"
+        />
+        <path
+          d="M12.5087 14.946L12.5021 14.9479L10.8887 14.5119L10.7856 13.3564H9.33105L9.53402 15.6313L12.5017 16.4554L12.5087 16.4535V14.946Z"
+          fill="#EBEBEB"
+        />
+        <path
+          d="M14.2941 12.5708L14.1197 14.511L12.5039 14.9469V16.4544L15.4739 15.6313L15.4959 15.3866L15.7477 12.5708H14.2941Z"
+          fill="white"
+        />
+        <path
+          d="M12.5055 8.25073V9.69964H9.00582L8.97676 9.37386L8.91066 8.63933L8.87598 8.25073H12.5055ZM12.5004 11.1832V12.6321H10.9071L10.878 12.3064L10.8124 11.5718L10.7777 11.1832H12.5004Z"
+          fill="#EBEBEB"
+        />
+      </svg>
+    ),
+  },
+  {
+    id: 8,
+    image: sd,
+    alt: "Imagen genérica",
+    category: "retos",
+    subtitle: "Subtítulo de tu proyecto",
+    title: "Título de tu proyecto",
+    description: "Descripción genérica de prueba de tu proyecto.",
     stack1: (
       <svg
         width="24"

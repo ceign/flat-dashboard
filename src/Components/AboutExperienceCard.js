@@ -23,7 +23,10 @@ const ExperienceCard = () => {
         </ul>
 
         <p className="about__experience-card__linkedin">
-          Puedes ver los detalles en mi <a href="dummyText">Linkedin!</a>
+          Puedes ver los detalles en mi{" "}
+          <a href="/" onClick={(e) => e.preventDefault()}>
+            Linkedin!
+          </a>
         </p>
       </div>
     </div>

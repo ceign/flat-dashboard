@@ -8,3 +8,11 @@ button.button-settings {
   border: none;
   background-color: transparent;
 }
+
+button.button-settings svg {
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button.button-settings:hover svg {
+  transform: rotate(360deg);
+}

@@ -19,8 +19,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/inicio" element={<Home />} />
-            <Route path="/acerca-de" element={<About />} />
-            <Route path="/prototipado" element={<UserInterfaceDesign />} />
+            <Route path="/sobre-mi" element={<About />} />
+            <Route path="/componentes" element={<UserInterfaceDesign />} />
             <Route path="/proyectos" element={<Projects />} />
             <Route path="/design-system" element={<DesignSystem />} />
             <Route path="/sexy-button" element={<SexyButton />} />

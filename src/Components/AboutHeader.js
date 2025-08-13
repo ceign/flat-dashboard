@@ -28,8 +28,8 @@ const AboutHeader = () => {
         </div>
 
         <div className="about__header__info">
-          <h1>Marcelo Gajardo</h1>
-          <h3>UI/Front End Designer</h3>
+          <h1>Sasaki Kojiro</h1>
+          <h3>UI Designer</h3>
         </div>
       </div>
     </div>
